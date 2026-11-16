@@ -1,0 +1,24 @@
+# Segredos e credenciais
+.env
+.env.*
+!.env.example
+credenciais.json
+*.pem
+*.key
+
+# Arquivos gerados localmente
+pipeline.log
+relatorios/
+duplicados_planilha.csv
+
+# Python e ambientes virtuais
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Sistema operacional / editor
+.DS_Store
+Thumbs.db
+.vscode/
